@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>clicker game</title>
+		<style>canvas {background: #eeeeee; display: block; margin: 0 auto;}</style>
+	</head>
+	<body>
+		<style>
+			.vertical-center {
+				margin: 0;
+				position: absolute;
+				top: 50%;
+				-ms-transform: translateY(-50%);
+				transform: translateY(-20%);
+				transform: translateX(600%);
+			}
+
+			img {
+				width: 800px;
+				height: 600px;
+				background: url(loading.gif) 50% no-repeat;
+				border: 1px solid rgb(255, 255, 255);
+				border-radius: 5px;
+				transform: translateX(30%);
+			}
+		</style>
+		<audio id="audio" src="jumpscare_SFX.mp3"></audio>
+		<image id="image" src="creepy.jpeg"></image>
+		<div class="vertical-center">
+			<button id="button">Click Me!</button>
+		</div>
+		<script src="main.js"> </script>
+	</body>
+</html>
+
